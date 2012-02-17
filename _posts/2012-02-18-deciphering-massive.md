@@ -1,3 +1,13 @@
+---
+layout: post
+title: Deciphering Massive
+---
+
+Deciphering the code behind Massive - the ultra lite ORM in c#
+==============================================================
+
+Provider Factories
+------------------
 .net framework unifies the disparage data providers under a common namespace called System.Data.Common.
 Each provider has a different set of classes to represent the database functionality. 
 
@@ -13,6 +23,7 @@ read row in the DataReader. GetName, and GetValue methods on the reader returns 
  
 
 Expando Object
+--------------
 
 System.Dynamic namespace hosts ExpandoObject. ExpandoObject implements IDictionary<String, Object>. Since Expando object is synonymous to a dictionary with
 key of type string and value of object, we can easily create a dynamic object by casting the newly created Expando object to a dictionary and then adding

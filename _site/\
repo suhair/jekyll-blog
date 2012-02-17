@@ -1,0 +1,10 @@
+header{
+  margin-bottom:40px;
+  margin-top:20px;
+}
+
+#post p{
+  font-family: Georgia, verdana;
+  font-size:1.4em;
+  line-height:1.6em;
+}
