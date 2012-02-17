@@ -21,9 +21,9 @@ header{
 }
 
 
-#postList ul{
+#postList{
   list-style:none;
 }
-#postList ul li a{
+#postList li a{
  font-size:1.3em;
 }
