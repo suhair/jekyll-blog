@@ -19,3 +19,11 @@ header{
 #post h2{
   margin-bottom:30px;
 }
+
+
+#postTitle ul{
+  list-style:none;
+}
+#postTitle ul li a{
+ font-size:1.3em;
+}
